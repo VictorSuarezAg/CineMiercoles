@@ -1,92 +1,153 @@
-let animes = Array({
-    nombre: 'Detective Conan',
-    genero: 'Misterio',
-    duracion: 940,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/DetectiveConan.jpg?alt=media&token=5f2f22ca-3225-45b4-99da-a2691fc406a5',
-    sinopsis: 'Trata sobre un joven de escuela preparatoria llamado Shinichi Kudo, que un día mientras estaba en un parque de atracciones siguió a unos hombres vestidos de negro que estaban haciendo tratos ilegales. De pronto uno de ellos coge a Shinichi por la espalda, lo golpea con un bate y lo droga con una pastilla que en teoría lo llevaría a su muerte. Pero esa pastilla tenía unos efectos secundarios: en vez de morir, encoge. Allí es cuando Shinichi Kudo de 17 años pasa a ser Conan Edogawa, de 7 años, un niño con mente de un adulto que busca la única y sola verdad.',
+let peliculas = Array({
+    nombre: 'After Amor Infinito',
+    genero: 'Drama',
+    duracion: 119,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/after.png?alt=media&token=7ee1e351-8408-4b44-a885-b7e80c2288a0',
+    sinopsis: 'La relación de Tessa Young (Josephine Langford) y Hardin Scott (Hero Fiennes-Tiffin) ha pasado por muchas dificultades que, por otro lado, han logrado fortalecer su unión y su amor. Cuando la verdad sobre sus familias ha salido a la luz, ambos han descubierto que no son tan diferentes como pensaban. Tessa ya no es esa chica dulce y buena que llegó a la universidad, y Hardin ya no es el chico cruel del que se enamoró. Ella es la única persona capaz de comprender, entender y calmar a Hardin, pero el secreto que esconde es tan grande que hace que ella se retire de absolutamente todo. Incluso su alma gemela.',
     clasificacion: '+12',
-    idioma: 'Jp Subtitulado'
+    idioma: 'Es'
 }, {
-    nombre: 'One Piece',
-    genero: 'Aventura',
-    duracion: 1040,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/OnePiece.jpg?alt=media&token=882ece4c-85f1-42f8-9452-727d6fe51b63',
-    sinopsis: 'Una historia épica de piratas, donde narra la historia de "Monkey D. Luffy" quien cuado tenia 7 años, comió accidentalmente una "Akuma no mi"(Futa del diablo) la cual le dio poderes de goma. Por otra parte "Gol D. Roger" conocido como "El rey de los Piratas" quien fuera ejecutado por la Marine, habló antes de morir, acerca de su famoso tesoro "One Piece" escondido en la "Gran line". Esta noticia desato la gran era de la piratas lanzando a incontables piratas a ese lugar, en busca de "One Piece" el tesoro perdido. Diez años después, Luffy inspirado en "Gol D. Roger" y un pirata de nombre Akagami no Shanks (Shanks el pelirrojo) se convierte en pirata deseando ser el próximo "Rey de los Piratas" y zarpar para conocer amigos y tener aventuras con ellos, teniendo como meta encontrar el "One Piece".',
+    nombre: 'Vértigo',
+    genero: 'Suspenso',
+    duracion: 107,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/Vertigo.png?alt=media&token=5c2122fd-70c3-4a9e-8f02-ff72c486aacd',
+    sinopsis: 'Para las mejores amigas Becky (Grace Caroline Currey) y Hunter (Virginia Gardner), la vida consiste en conquistar los miedos y superar los límites. Pero después de escalar 600 metros hasta la cima de una remota torre de radio abandonada, se encuentran atrapadas e incomunicadas. Ahora, las habilidades de escalada de Becky y Hunter serán puestas a prueba mientras luchan desesperadamente por sobrevivir. Thriller cargado de adrenalina, coprotagonizado por Jeffrey Dean Morgan (The Walking Dead / Rampage / Watchmen). De los mismos productores de Terror a 47 metros y dirigida por Scott Mann (Final Score).',
     clasificacion: '+12',
-    idioma: 'Jp Subtitulado'
+    idioma: 'Es'
 }, {
-    nombre: 'Saint Seiya',
-    genero: 'Guerra',
-    duracion: 114,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/SaintSeiya.jpg?alt=media&token=ecef9cad-4092-465b-9274-b3b3ad83b69e',
-    sinopsis: 'Cuenta la historia de un grupo de jóvenes guerreros denominados Santos (o caballeros en varias traducciones), quienes luchan por proteger a la diosa griega Atenea de las fuerzas del mal. Para luchar, los Santos sólo utilizan su energía interior (denominada cosmos), sus puños y armaduras que les sirven de protección y que además están inspiradas en constelaciones o seres de la mitología griega y escandinava.',
-    clasificacion: '+16',
-    idioma: 'Sp'
-}, {
-    nombre: 'Samurai X',
-    genero: 'Guerra',
-    duracion: 95,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/SamuraiX.jpg?alt=media&token=b4b38c84-6a40-42fa-9634-53118c86a5a7',
-    sinopsis: 'La historia trata de un joven, el mayor asesino de la era Tokugawa hasta la Restauración Meiji, apodado Battousai. Este joven llamado Kenshin Himura, decide no volver a matar gente, y para poder pagar de alguna forma los asesinatos que cometió, decide proteger a las personas a su alrededor con la técnica más aterradora y poderosa en existencia: el Hiten Mitsurugi Ry?, aprendida gracias al adiestramiento de su maestro Seijuro Hiko , que lo acogió cuando era pequeño tras sobrevivir en el asesinato de la caravana de esclavos en que se encontraba, donde 3 hermanas lo habian adoptado como hermano menor. De esta manera conoce a Kaoru Kamiya, del dojo Kamiya Kasshin Ry?, Sanosuke, Yahiko y a otros personajes que pasan a ser parte de su vida, y motivo de existencia.',
-    clasificacion: '+18',
-    idioma: 'Sp'
-}, {
-    nombre: 'Tokio Ghoul',
-    genero: 'Ficcion',
-    duracion: 95,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/TokyoGhoul.jpg?alt=media&token=793bdb75-5d3c-43fa-8e75-3f8e1918879e',
-    sinopsis: 'Extraños asesinatos se están sucediendo uno tras otro en Tokyo. Debido a las pruebas encontradas en las escenas, la policía concluye que los ataques son obra de ghouls que se comen a las personas. Kaneki y Hide, dos compañeros de clase, llegan a la conclusión de que si nadie ha visto nunca a esos necrófagos es porque toman la apariencia de seres humanos para ocultarse. Poco sabían entonces de que su teoría sería más cierta de lo que pensaban cuando Kaneki es herido de gravedad por un monstruo y comienza a atraerle cada vez más la carne humana…',
-    clasificacion: '+16',
-    idioma: 'Jp Subtitulado'
-}, {
-    nombre: 'Attack On Titan',
-    genero: 'Ficcion',
-    duracion: 25,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/aot.jpg?alt=media&token=a95956f8-fcfd-43c9-ae64-70b60a327b26',
-    sinopsis: 'La historia nos traslada a un mundo en el que la humanidad estuvo a punto de ser exterminada cientos de años atrás por los gigantes. Los gigantes son enormes, parecen no ser inteligentes y devoran seres humanos. Lo peor es que parece que lo hacen por placer y no por alimentarse. Una pequeña parte de la humanidad ha conseguido sobrevivir protegiéndose en una ciudad con unos altísimos muros, más altos que el mayor de los gigantes. La ciudad vive su vida tranquila, y hace más de 100 años que ningún gigante aparece por allí. Eren y su hermana adoptiva Mikasa son todavía unos adolescentes cuando ven algo horroroso: un gigante mucho mayor que todos los que la humanidad había conocido hasta el momento está destruyendo los muros de la ciudad. No pasa mucho tiempo hasta que los gigantes entran por el hueco abierto en el muro y comienzan a devorar a la gente',
-    clasificacion: '+16',
-    idioma: 'Jp Subtitulado'
-}, {
-    nombre: 'Bleach',
-    genero: 'Aventura',
-    duracion: 366,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/bleach.jpg?alt=media&token=5e5ff316-925f-4256-872b-eb4ee20e85fd',
-    sinopsis: 'Kurosaki Ichigo es un estudiante de instituto de 15 años, que tiene una peculiaridad: es capaz de ver, oír y hablar con fantasmas. Pero no sabe hasta dónde puede abarcar la clasificación de espíritus, ni lo que conlleva el saberlo. Un buen día, una extraña chica de pequeña estatura que viste ropas negras de samurai entra en su cuarto. Se llama Rukia Kuchiki, y es una Shinigami (Dios de la Muerte). Ante la incredulidad de Ichigo, le explica que su trabajo es mandar a las almas buenas o plus a un lugar llamado la Sociedad de Almas, y eliminar a las almas malignas o hollows. Luego junto a Inoue Orihime, Ishida Ury y Sado Yasutora se veran envueltos en diferentes batallas, las cuales iran desarrollando sus diferentes habilidades que le otorgaran a cada uno su importancia en la serie.',
-    clasificacion: '+16',
-    idioma: 'Jp Subtitulado'
-}, {
-    nombre: 'High School Of The Dead',
-    genero: 'Zombies',
-    duracion: 12,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/hsotd.jpg?alt=media&token=d1c30dc2-a30d-4e18-b28e-b00699954bdc',
-    sinopsis: 'Kurosaki Ichigo es un estudiante de instituto de 15 años, que tiene una peculiaridad: es capaz de ver, oír y hablar con fantasmas. Pero no sabe hasta dónde puede abarcar la clasificación de espíritus, ni lo que conlleva el saberlo. Un buen día, una extraña chica de pequeña estatura que viste ropas negras de samurai entra en su cuarto. Se llama Rukia Kuchiki, y es una Shinigami (Dios de la Muerte). Ante la incredulidad de Ichigo, le explica que su trabajo es mandar a las almas buenas o plus a un lugar llamado la Sociedad de Almas, y eliminar a las almas malignas o hollows. Luego junto a Inoue Orihime, Ishida Ury y Sado Yasutora se veran envueltos en diferentes batallas, las cuales iran desarrollando sus diferentes habilidades que le otorgaran a cada uno su importancia en la serie.',
-    clasificacion: '+18',
-    idioma: 'Jp Subtitulado'
-}, {
-    nombre: 'Prince Of Tennis',
-    genero: 'Deportes',
-    duracion: 178,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/pot.jpg?alt=media&token=ded3e801-f5b9-4584-9ddc-b39d7ca03f0c',
-    sinopsis: 'Ryoma Echizen es un chico de 12 años cuyo propósito es superar a su padre quien fue un profesional en el tenis ya retirado. Él vivía en Estados Unidos con su familia. Pero ellos deciden mudarse a japón la cual es la tierra natal de su padre. Allí Ryoma entra al instituto Seishun Gakuen o también llamada Seigaku, entonces decide inscribirse en el club de tenis y allí comienzan todas sus aventuras donde Ryoma demostrara sus habilidades en el tenis y hará saber su nombre " el príncipe del tenis".',
+    nombre: '¡Nop!',
+    genero: 'Suspenso',
+    duracion: 130,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/Nop.jpg?alt=media&token=179ff0f0-6eb8-4e02-a8d7-9c5cabfbe5ed',
+    sinopsis: '“¿Qué es un mal milagro?” El ganador del Oscar® Jordan Peele redefinió el género del horror moderno, primero con ¡Huye! y luego con Nosotros. Y ahora reinventa la película del verano con una nueva pesadilla pop expansiva pop de horror, la épica película ¡Nop! El proyecto reúne a Peele con el ganador del Oscar® Daniel Kaluuya (¡Huye!, Judas y el mesías negro), a quienes se les une Keke Palmer (Estafadoras de Wall Street, Alice) y el nominado al Oscar® Steven Yeun (Minari, historia de mi familia, Okja), como residentes de una lejana propiedad en California, y en donde son testigos de un descubrimiento misterioso y escalofriante. ¡Nop!, es coprotagonizada por Michael Wincott (Hitchcock, la serie Westworld) y Brandon Perea (la serie The OA, American Insurrection), está escrita y dirigida por Jordan Peele y producida por Ian Cooper (Nosotros, Candyman) y Jordan Peele para Monkeypaw Productions. La película será estrenada por Universal Pictures en todo el mundo.',
     clasificacion: '+12',
-    idioma: 'Jp Subtitulado'
+    idioma: 'Es'
 }, {
-    nombre: 'Vampire Knight',
-    genero: 'Deportes',
-    duracion: 13,
-    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/vkn.jpg?alt=media&token=627ecaff-c6a5-4b75-83a8-74f7253504ea',
-    sinopsis: 'Lo único que Yūki recuerda de su infancia es que, perdida en el invierno, fue atacada por un vampiro fuera de control, situación de la que la rescató otro vampiro, Kuran Kaname. Él la llevó con Kaien Cross, quien se convierte en su padre adoptivo y más adelante, en el director de la ""Academia Privada Cross"". Sin embargo, la academia de elite oculta un secreto: los alumnos de la Clase de Noche son en realidad vampiros. El director y Kuran Kaname creen que es posible una convivencia pacífica de humanos y vampiros. Yūki y Zero, un chico procedente de una familia de cazadores de vampiros cuyos padres fueron asesinados por uno de ellos cuatro años atrás, son los únicos de la Clase de Día que conocen el secreto y se ocupan de mantener el orden en la Academia. Zero odia a los vampiros más que a nada en el mundo, pero a su vez también oculta un gran secreto que lo tortura día a día',
+    nombre: 'Dragon Ball Super: Super Hero',
+    genero: 'Animación',
+    duracion: 100,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/DB.jpg?alt=media&token=5eb5a19d-97bb-4eae-b0fd-a5d886ff2ae4',
+    sinopsis: 'Son Goku destruyó en su momento a la Patrulla Roja. Ahora, ciertos individuos han decidido continuar con su legado y han creado a los androides definitivos: Gamma 1 y Gamma 2. Estos dos androides se autoproclaman "superhéroes" y deciden atacar a Piccolo y a Gohan. ¿Cuál es el objetivo de la nueva Patrulla Roja? Ante un peligro inminente, ¡llega el momento del despertar del Superhéroe! La película, que cuenta con el compromiso e intervención del creador original de Dragon Ball, Akira Toriyama, tiene al legendario creador de manga detrás de la historia original, el guión y el diseño de personajes del filme.',
+    clasificacion: '+7',
+    idioma: 'Es'
+}, {
+    nombre: 'Tren Bala',
+    genero: 'Acción',
+    duracion: 126,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/trenbala.jpg?alt=media&token=822d28a6-e206-44b1-a65c-21952fb745c2',
+    sinopsis: 'En Tren bala, Brad Pitt protagoniza la película en el papel de Ladybug, un asesino con poca suerte determinado a hacer su trabajo en paz después de que más de una de sus asignaciones se le han salido control. Sin embargo, el destino puede tener otros planes mientras que la última misión de Ladybug lo pone en un camino accidentado con adversarios mortales de diversas partes del planeta -todos conectados pero con objetivos en conflicto- en el tren más rápido del mundo…y tiene que descubrir como bajarse. Del director de Deadpool 2, David Leitch, el final del camino es sólo el comienzo de un viaje extremo sin parar a través de un Japón Moderno.',
+    clasificacion: '+15',
+    idioma: 'Es'
+}, {
+    nombre: 'DC Liga De SúperMascotas',
+    genero: 'Animación',
+    duracion: 106,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/supermascotas.jpg?alt=media&token=532bfcd9-c73e-4504-b190-2ab1ce089299',
+    sinopsis: 'Cuando la Liga de la Justicia es capturada por Lex Luthor, el perro de Superman, Krypto, forma un equipo de mascotas de refugio a las que se les otorgan superpoderes: Un sabueso llamado Ace, que se vuelve superfuerte, un cerdo llamado PB, que puede crecer hasta alcanzar un tamaño gigante, una tortuga llamada Merton, que se vuelve superrápida, y una ardilla llamada Chip, adquiere poderes eléctricos.',
+    clasificacion: '+7',
+    idioma: 'Es'
+}, {
+    nombre: 'El Demonio en el Espejo',
+    genero: 'Terror',
+    duracion: 83,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/Eldemonioenelespejo.jpg?alt=media&token=68a229d0-6aad-4643-b536-f6e467b8b4cc',
+    sinopsis: 'Dos jóvenes hermanas, enviadas a vivir con su tía, descubren que todos los espejos de su casa están ocultos o cubiertos de una tela. Cuando una de las hermanas se encuentra con un espejo en el sótano, sin saberlo, libera a un demonio malicioso que había perseguido a su madre y a su tía años atrás.',
     clasificacion: '+12',
-    idioma: 'Jp Subtitulado'
+    idioma: 'Es'
+}, {
+    nombre: 'Thor: Amor y Trueno',
+    genero: 'Accion',
+    duracion: 119,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/thor.png?alt=media&token=32e067e2-12cb-4682-abf6-cf26f6ca53f4',
+    sinopsis: 'La película encuentra a Thor (Chris Hemsworth) en un viaje diferente a todo lo que ha enfrentado: una búsqueda de paz interior. Pero su retiro es interrumpido por un asesino de la galaxia conocido como Gorr, el Carnicero de Dioses (Christian Bale), que busca la extinción de los dioses. Para combatir la amenaza, Thor solicita la ayuda del rey Valquiria (Tessa Thompson), Korg (Taika Waititi) y su ex novia Jane Foster (Natalie Portman), quien, para sorpresa de Thor, empuña inexplicablemente su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una terrorífica aventura cósmica para descubrir el misterio de la venganza del Carnicero de Dioses y detenerlo antes de que sea demasiado tarde. Dirigida por Waititi (THOR: RAGNAROK, Jojo Rabbit) y producida por Kevin Feige y Brad Winderbaum.',
+    clasificacion: '+12',
+    idioma: 'Es'
+}, {
+    nombre: 'Minions 2: Nace un Villano',
+    genero: 'Comedia',
+    duracion: 87,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/minions.jpg?alt=media&token=50fce19b-82e2-4d0f-b036-a156bce70bbb',
+    sinopsis: 'En el corazón de los años 70s, un Gru de 12 años crece en los suburbios. Fan de los supervillanos Vicious 6, Gru decide que quiere ser tan malvado como ellos para unírseles. Con ayuda de sus secuaces, los Minions, construye su primera guarida, usa sus primeras armas y cumple sus primeras misiones. Cuando los Vicious 6 traicionan a su líder, el legendario Wild Knuckles, Gru asiste a la entrevista para formar parte del equipo, pero no sale tan bien como esperaba. En la huida descubre que también los villanos necesitan ayuda de sus amigos.',
+    clasificacion: '+7',
+    idioma: 'Es'
+}, {
+    nombre: 'Hierve',
+    genero: 'Drama',
+    duracion: 92,
+    poster: 'https://firebasestorage.googleapis.com/v0/b/cinevs-28f3f.appspot.com/o/hierve.jpg?alt=media&token=08dd1491-8632-4aa9-811f-770f5208a26a',
+    sinopsis: 'En la noche más concurrida del año en uno de los restaurantes de moda en Londres, el carismático jefe de cocina Andy Jones trata de no derrumbarse ante una crisis personal y profesional que podría destruir todo aquello por lo que ha trabajado. La inesperada visita de un inspector de sanidad y seguridad alimentaria aumenta la presión sobre el personal mientras no dejan de llegar más y más clientes. Andy abronca y engatusa a su equipo indistintamente, haciendo todo lo posible para disipar las tensiones entre la gerencia y los trabajadores, mientras atiende a las ridículas demandas de sus clientes.',
+    clasificacion: '+12',
+    idioma: 'Es'
 })
 
+// ELlipsis
+/*function ellipsis_box(elemento, max_chars) {
+    limite_text = $(elemento).text();
+    if (limite_text.length > max_chars) {
+        limite = limite_text.substr(0, max_chars) + " ...";
+        $(elemento).text(limite);
+    }
+}
+$(function() {
+    ellipsis_box(".sinopsis", 140);
+});*/
+
 // Recorriendo un arreglo en JS
-animes.forEach(function(anime) {
-    console.log(anime.nombre);
-    console.log(anime.genero);
-    console.log(anime.duracion);
-    console.log(anime.poster);
-    console.log(anime.sinopsis);
-    console.log(anime.clasificacion);
-    console.log(anime.idioma);
+
+let fila = document.querySelector('#fila')
+
+peliculas.forEach(function(pelicula) {
+    console.log(pelicula.nombre);
+    console.log(pelicula.genero);
+    console.log(pelicula.duracion);
+    console.log(pelicula.poster);
+    console.log(pelicula.sinopsis);
+    console.log(pelicula.clasificacion);
+    console.log(pelicula.idioma);
+
+    let columna = document.createElement('div'),
+        tarjeta = document.createElement('div'),
+        poster = document.createElement('img'),
+        tarjetaBody = document.createElement('div'),
+        nombre = document.createElement('h5'),
+        sinopsis = document.createElement('p'),
+        genero = document.createElement('p'),
+        idioma = document.createElement('p'),
+        duracion = document.createElement('p'),
+        clasificacion = document.createElement('p')
+
+    columna.classList.add('col')
+    tarjeta.classList.add('card', 'h100')
+    poster.classList.add('card-img-top')
+    tarjetaBody.classList.add('card-body')
+    nombre.classList.add('card-title')
+    sinopsis.classList.add('card-text', 'd-none', 'sinopsis')
+    genero.classList.add('card-text', 'mb-1')
+    idioma.classList.add('card-text', 'mb-1')
+    duracion.classList.add('card-text', 'mb-1')
+    clasificacion.classList.add('card-text', 'mb-1')
+
+    poster.src = pelicula.poster
+    nombre.textContent = pelicula.nombre
+    sinopsis.innerHTML = '<strong>Sinopsis:</strong> ' + pelicula.sinopsis
+    genero.innerHTML = '<strong>Genero:</strong> ' + pelicula.genero
+    idioma.innerHTML = '<strong>Idioma:</strong> ' + pelicula.idioma
+    duracion.innerHTML = '<strong>Duración:</strong> ' + pelicula.duracion + 'min'
+    clasificacion.innerHTML = '<strong>Clasificación:</strong> ' + pelicula.clasificacion
+
+    fila.appendChild(columna)
+    columna.appendChild(tarjeta)
+    tarjeta.appendChild(poster)
+    tarjeta.appendChild(tarjetaBody)
+    tarjetaBody.appendChild(nombre)
+    tarjetaBody.appendChild(genero)
+    tarjetaBody.appendChild(idioma)
+    tarjetaBody.appendChild(duracion)
+    tarjetaBody.appendChild(clasificacion)
+    tarjetaBody.appendChild(sinopsis)
+})
+
+// detectando seleccion de una pelicula
+fila.addEventListener('click', () => {
+    alert('esta seleccionando una pelicula')
 })
