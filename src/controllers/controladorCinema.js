@@ -80,14 +80,8 @@ let peliculas = Array({
     idioma: 'Es'
 })
 
-// ELlipsis
-/*function ellipsis_box(elemento, max_chars) {
-    limite_text = $(elemento).text();
-    if (limite_text.length > max_chars) {
-        limite = limite_text.substr(0, max_chars) + " ...";
-        $(elemento).text(limite);
-    }
-}
+
+/*
 $(function() {
     ellipsis_box(".sinopsis", 140);
 });*/
@@ -121,7 +115,7 @@ peliculas.forEach(function(pelicula) {
     poster.classList.add('card-img-top')
     tarjetaBody.classList.add('card-body')
     nombre.classList.add('card-title')
-    sinopsis.classList.add('card-text', 'd-none', 'sinopsis')
+    sinopsis.classList.add('card-text', 'd-none')
     genero.classList.add('card-text', 'mb-1')
     idioma.classList.add('card-text', 'mb-1')
     duracion.classList.add('card-text', 'mb-1')
