@@ -7,3 +7,14 @@
     height: calc(100vh - 5rem);
     overflow: hidden;
 }
+
+.sinopsis {
+    height: 9rem;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+}
+
+.logoFooter {
+    height: 3rem;
+}
