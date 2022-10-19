@@ -1,6 +1,6 @@
 // Consumir datos de Api de spotify
 const URI = "https://api.spotify.com/v1/artists/13JJKrUewC1CJYmIDXQNoH/top-tracks?market=US"
-const TOKEN = "Bearer BQDhCQv8BGkxEqk1LE1HIsp1W4zHMO5vnKgVu3R7RGhIr9yn7iq5mszsQwpG0Jqh3uSP5Invrs_mhknpKhL4w2C4nvOpv4GUQFGZBW7j2ILAzKtrzhRZGOEV1YbX4gHmlE6sljD9gAHUCBJImS7XBODRI6QdnDSaPUqZB9SegNNYIqizlwyLTfuyjLEaXgT9dT0"
+const TOKEN = "Bearer BQDbbPkWGvEKSvaN7AY9hjmIb4L0bcj-zZskLdwiVfclR1Atwr7tC-iRFtrM31BUM3dZja-QLldeaIs9qcBdouiOgf5rO7NeiRfBH8JPVBANcLEL1faiSlDglintOceH-Zx_9WYVksy38YTxWiRguw8UgsAvXCFSsyx9nnSnhRuejoeBETbvQhvaDqj-I2xkVIc"
 const PETICION = {
     method: "GET",
     headers: {

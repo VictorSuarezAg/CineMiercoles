@@ -117,3 +117,8 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
+.back {
+    display: flex;
+    justify-content: center;
+}
